@@ -28,6 +28,8 @@ img{
     margin-top: 25px;
     margin-right: 10px;
     color: black;
+    align-items: center;
+    justify-content: center;
 
 }
 .head{
@@ -38,13 +40,14 @@ img{
     
 }
 #txt{
-    display: flex;
+    display: block;
     border-radius: 4px;
     box-shadow: 3px 3px coral;
     height: 30px;
     border: 1px solid gray;
     margin-top: 10%;
-    margin-left: 44%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
     text-align: center;
     align-items: center;
@@ -53,6 +56,9 @@ img{
     
 }
 button{
+    display: block;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
     padding: 5px 20px;
     border-radius: 4px;
@@ -60,7 +66,8 @@ button{
     text-align: center;
     border: none;
     color: aqua;
-    margin-left: 47%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .min,.max,.wind{
     
@@ -69,6 +76,7 @@ button{
     justify-content: center;
     margin-top: 20px;
     font-size: large;
+    color: rgb(40, 40, 20);
 }
 
 
