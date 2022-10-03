@@ -14,8 +14,8 @@ fetch(url).then((res)=>{
         let html = `<div class="div">
        
     <h1 id="name">${data.name}</h1>
-    <div class="weather-card" id="weather-card"><b><span class="min">Min.Temprature: ${data.main.temp_min} C</span>
-    <span class="max">Max.Temprature: ${data.main.temp_max} C</span></b></div>
+    <div class="weather-card" id="weather-card"><b><span class="min">Min.Temprature: ${data.main.temp_min - 273} C</span>
+    <span class="max">Max.Temprature: ${data.main.temp_max - 273} C</span></b></div>
     <b> <span class="wind">Wind Speed: ${data.wind.speed} mph</span></b>
   </div>`
   card.innerHTML=html;
